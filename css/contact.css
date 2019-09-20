@@ -1,0 +1,1374 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+html {
+    overflow-x: hidden
+}
+
+@media (min-width: 1281px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .fixed {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .navbar {
+        background: black;
+    }
+
+    .navbar-brand>img:nth-child(1) {
+        width: 15%;
+    }
+
+    .navbar-brand>img:nth-child(2) {
+        width: 40%;
+    }
+
+    .container-fluid .navbar.navbar-expand-lg .nav-link {
+        color: black;
+    }
+
+    .nav-item {
+        padding-right: 20px;
+    }
+
+    #button_head {
+        /* border: none; */
+        position: relative;
+        z-index: 1;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    #button_head a {
+        color: white;
+        padding: 0;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #button_head:hover {
+        border: 3px solid green;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    #button_head a:hover {
+        color: green;
+    }
+
+    section {
+        z-index: 10;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        margin: 3em 3em 0 4.5em;
+    }
+
+    .contact_us>h2 {
+        padding-top: 70px;
+        font-size: 4em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    #contact_img {
+        padding-top: 10px;
+        width: 250px;
+    }
+
+    .contact_form {
+        background: black;
+        margin: 0 5px;
+        height: 600px;
+        background-image: url(../assets/dot_bg.png);
+        background-position: 145%;
+        background-repeat: no-repeat;
+    }
+
+
+    .send_form {
+        padding: 50px;
+    }
+
+    .send_form>h3 {
+        padding-bottom: 30px;
+        color: white;
+        font-size: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    .inp_form {
+        padding: 10px 10px 0 0;
+    }
+
+    .inp_form>input {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 35px;
+        padding-left: 20px;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>textarea {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 100px;
+        resize: none;
+        padding-left: 20px;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>input::placeholder,
+    .inp_form>textarea::placeholder {
+        color: white;
+    }
+
+    .button_submit {
+        margin-top: 15px;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .button_submit:hover {
+        border: 3px solid green;
+        color: green;
+    }
+
+    .details {
+        padding: 50px;
+    }
+
+    .details>h3 {
+        color: rgb(134, 131, 131);
+        font-size: 1.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+
+    .details>a {
+        color: white;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .details>a:hover {
+        text-decoration: none;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    .details>p {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    footer {
+        /* position: relative; */
+        background: black;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .icon {
+        padding-left: 100px;
+    }
+
+    .quaffle_img {
+        width: 60px;
+        background: black;
+    }
+
+    #foot_icon {
+        color: white;
+        padding-left: 10px;
+    }
+
+    .powered>p {
+        font-size: 1.5em;
+        font-family: 'Poppins', sans-serif;
+        text-align: right;
+        padding-right: 5vh;
+    }
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .fixed {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .navbar {
+        background: black;
+    }
+
+    .navbar-brand>img:nth-child(1) {
+        width: 15%;
+    }
+
+    .navbar-brand>img:nth-child(2) {
+        width: 40%;
+    }
+
+    .container-fluid .navbar.navbar-expand-lg .nav-link {
+        color: black;
+    }
+
+    .nav-item {
+        padding-right: 20px;
+    }
+
+    #button_head {
+        /* border: none; */
+        position: relative;
+        z-index: 1;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    #button_head a {
+        color: white;
+        padding: 0;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #button_head:hover {
+        border: 3px solid green;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    #button_head a:hover {
+        color: green;
+    }
+
+    section {
+        z-index: 10;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        margin: 3em 3em 0 4.5em;
+    }
+
+    .contact_us>h2 {
+        padding-top: 70px;
+        font-size: 4em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    #contact_img {
+        padding-top: 10px;
+        width: 350px;
+    }
+
+    .contact_form {
+        background: black;
+        margin: 0 5px;
+        height: 600px;
+        /* background-image: url(../assets/dot_bg.png);
+        background-position: 145%;
+        background-repeat: no-repeat; */
+    }
+
+    .send_form {
+        padding: 50px;
+    }
+
+    .send_form>h3 {
+        padding-bottom: 30px;
+        color: white;
+        font-size: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    .inp_form {
+        padding: 10px 10px 0 0;
+    }
+
+    .inp_form>input {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 35px;
+        padding-left: 20px;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>textarea {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 100px;
+        resize: none;
+        padding-left: 20px;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>input::placeholder,
+    .inp_form>textarea::placeholder {
+        color: white;
+    }
+
+    .button_submit {
+        margin-top: 15px;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .button_submit:hover {
+        border: 3px solid green;
+        color: green;
+    }
+
+    .details {
+        padding: 50px;
+    }
+
+    .details>h3 {
+        color: rgb(134, 131, 131);
+        font-size: 1.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+
+    .details>a {
+        color: white;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .details>a:hover {
+        text-decoration: none;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    .details>p {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    footer {
+        /* position: relative; */
+        background: black;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .icon {
+        padding-left: 100px;
+    }
+
+    .quaffle_img {
+        width: 60px;
+        background: black;
+    }
+
+    #foot_icon {
+        color: white;
+        padding-left: 10px;
+    }
+
+    .powered>p {
+        font-size: 1.5em;
+        font-family: 'Poppins', sans-serif;
+        text-align: right;
+        padding-right: 5vh;
+    }
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .fixed {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .navbar {
+        background: black;
+    }
+
+    /* #logo {
+        width: 55%;
+    } */
+    .navbar-brand>img:nth-child(1) {
+        width: 15%;
+    }
+
+    .navbar-brand>img:nth-child(2) {
+        width: 40%;
+    }
+
+
+    .container-fluid .navbar.navbar-expand-lg .nav-link {
+        color: black;
+    }
+
+    #button_head {
+        /* border: none; */
+        position: relative;
+        z-index: 1;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        width: 15%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    #button_head a {
+        color: white;
+        padding: 0;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #button_head a:visited {
+        border: none;
+    }
+
+    #button_head a:active {
+        border: none;
+    }
+
+    #button_head:hover,
+    #button_head:focus {
+        border: 3px solid green;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    #button_head a:hover {
+        color: green;
+    }
+
+    section {
+        z-index: 10;
+        /* margin-bottom: 20px; */
+    }
+
+    .heading {
+        margin: 0vh 15vh 0 5vh;
+    }
+
+    .contact_us>h2 {
+        padding-top: 2vh;
+        font-size: 4em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    #contact_img {
+        padding-top: 4vh;
+        width: 30vh;
+    }
+
+    .contact_form {
+        background: black;
+        margin: 0 5px;
+        height: 600px;
+        /* background-image: url(../assets/dot_bg.png);
+        background-size: 80%;
+        background-position: 310% 0%;
+        background-repeat: no-repeat; */
+    }
+
+    .send_form {
+        padding: 4vh;
+    }
+
+    .send_form>h3 {
+        padding-bottom: 3vh;
+        color: white;
+        font-size: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        /* padding-bottom: 10px; */
+    }
+
+    .inp_form {
+        padding: 1vh 1vh 0 0;
+    }
+
+    .inp_form>input {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 3vh;
+        padding-left: 2vh;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>textarea {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 10vh;
+        resize: none;
+        padding-left: 2vh;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>input::placeholder,
+    .inp_form>textarea::placeholder {
+        color: white;
+    }
+
+    .button_submit {
+        margin-top: 15px;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .button_submit:hover,
+    .button_submit:focus {
+        border: 3px solid green;
+        color: green;
+    }
+
+    .details {
+        /* padding: 50px; */
+        padding-top: 2vh;
+    }
+
+    .details>h3 {
+        color: rgb(134, 131, 131);
+        font-size: 1.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+
+    .details>a {
+        color: white;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .details>a:hover {
+        text-decoration: none;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    .details>p {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .text_social {
+        /* background: black; */
+        padding: 3vh 0 2vh 2vh;
+    }
+
+    footer {
+        /* position: relative; */
+        background: black;
+        color: white;
+        padding-top: 20px;
+    }
+
+    /* .icon {
+        text-align: center;
+        padding-left: 100px;
+        width: 15rem;
+    } */
+
+    .quaffle_img {
+        width: 60px;
+        background: black;
+    }
+
+    #foot_icon {
+        color: white;
+        padding-left: 10px;
+    }
+
+    .powered>p {
+        font-size: 1.2em;
+        font-family: 'Poppins', sans-serif;
+        text-align: end;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .fixed {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .navbar {
+        background: black;
+    }
+
+    /* 
+    #logo {
+        width: 55%;
+        padding-left: 50px;
+    } */
+    .navbar-brand>img:nth-child(1) {
+        width: 15%;
+    }
+
+    .navbar-brand>img:nth-child(2) {
+        width: 40%;
+    }
+
+    .container-fluid .navbar.navbar-expand-lg .nav-link {
+        color: black;
+    }
+
+    .nav-item {
+        padding-right: 20px;
+    }
+
+    #button_head {
+        /* border: none; */
+        position: relative;
+        z-index: 1;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    #button_head a {
+        color: white;
+        padding: 0;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #button_head a:visited {
+        border: none;
+    }
+
+    #button_head a:active {
+        border: none;
+    }
+
+    #button_head:hover {
+        border: 3px solid green;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    #button_head a:hover {
+        color: green;
+    }
+
+    section {
+        z-index: 10;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        margin: 3em 3em 0 4.5em;
+    }
+
+    .contact_us>h2 {
+        padding-top: 6vh;
+        font-size: 4.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    #contact_img {
+        padding-top: 10px;
+        width: 350px;
+        padding-right: 5vh;
+    }
+
+    .contact_form {
+        background: black;
+        margin: 0 5px;
+        height: 600px;
+        /* background-image: url(../assets/dot_bg.png);
+        background-size: 100%;
+        background-position: 145% 130%;
+        background-repeat: no-repeat; */
+    }
+
+    .send_form {
+        padding: 50px;
+    }
+
+    .send_form>h3 {
+        padding-bottom: 30px;
+        color: white;
+        font-size: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    .inp_form {
+        padding: 10px 10px 0 0;
+    }
+
+    .inp_form>input {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 35px;
+        padding-left: 20px;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>textarea {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 100px;
+        resize: none;
+        padding-left: 20px;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>input::placeholder,
+    .inp_form>textarea::placeholder {
+        color: white;
+    }
+
+    .button_submit {
+        margin-top: 15px;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .button_submit:hover {
+        border: 3px solid green;
+        color: green;
+    }
+
+    .details {
+        padding: 50px;
+    }
+
+    .details>h3 {
+        color: rgb(134, 131, 131);
+        font-size: 1.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+
+    .details>a {
+        color: white;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .details>a:hover {
+        text-decoration: none;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    .details>p {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .text_social {
+        /* background: black; */
+        padding: 3vh 0 2vh 2vh;
+    }
+
+    footer {
+        /* position: relative; */
+        background: black;
+        color: white;
+        padding-top: 20px;
+    }
+
+    /* .icon {
+        text-align: center;
+        padding-left: 100px;
+        width: 15rem;
+    } */
+
+    .quaffle_img {
+        width: 60px;
+        background: black;
+    }
+
+    #foot_icon {
+        color: white;
+        padding-left: 10px;
+    }
+
+    .powered>p {
+        font-size: 1.2em;
+        font-family: 'Poppins', sans-serif;
+        text-align: end;
+    }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .fixed {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .navbar {
+        background: black;
+    }
+
+    /* .navbar-brand>img{
+        width: 50%;
+    } */
+    .navbar-brand>img:nth-child(1) {
+        width: 15%;
+    }
+
+    .navbar-brand>img:nth-child(2) {
+        width: 40%;
+    }
+
+    /* #logo {
+        width: 30%;
+        /* margin-right: 50px; 
+        /* padding-left: 50px; 
+     }  */
+
+    .container-fluid .navbar.navbar-expand-lg .nav-link {
+        color: black;
+    }
+
+    /* .nav-item {
+        padding-right: 20px;
+    } */
+
+    #button_head {
+        /* border: none; */
+        position: relative;
+        z-index: 1;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    #button_head a {
+        color: white;
+        padding: 0;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #button_head:hover {
+        border: 3px solid green;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    #button_head a:hover {
+        color: green;
+    }
+
+    section {
+        z-index: 10;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        margin: 0 0 0 4vh;
+    }
+
+    .contact_us>h2 {
+        /* padding-top: 7vh; */
+        font-size: 4em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    #contact_img {
+        padding-top: 10px;
+        width: 350px;
+    }
+
+    .contact_form {
+        background: black;
+        margin: 0 5px;
+        /* height: 600px; */
+        /* background-image: url(../assets/dot_bg.png);
+        background-size: 100%;
+        background-position: 0% 100%;
+        background-repeat: no-repeat; */
+    }
+
+    .send_form {
+        padding: 50px;
+    }
+
+    .send_form>h3 {
+        padding-bottom: 30px;
+        color: white;
+        font-size: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    .inp_form {
+        padding: 10px 10px 0 0;
+    }
+
+    .inp_form>input {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 35px;
+        padding-left: 20px;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>textarea {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 100px;
+        resize: none;
+        padding-left: 20px;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>input::placeholder,
+    .inp_form>textarea::placeholder {
+        color: white;
+    }
+
+    .button_submit {
+        margin-top: 15px;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .button_submit:hover {
+        border: 3px solid green;
+        color: green;
+    }
+
+    .details {
+        padding: 10px 0 10px 50px;
+    }
+
+    .details>h3 {
+        color: rgb(134, 131, 131);
+        font-size: 1.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+
+    .details>a {
+        color: white;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .details>a:hover {
+        text-decoration: none;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    .details>p {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    footer {
+        background: black;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .text_social {
+        /* background: black; */
+        padding: 3vh 0 2vh 2vh;
+    }
+
+    .quaffle {
+        text-align: right;
+    }
+
+    .quaffle>p {
+        font-size: 1.5em;
+    }
+
+    .quaffle_img {
+        width: 10vh;
+        background: black;
+    }
+
+    #foot_icon {
+        color: white;
+        padding-left: 10px;
+    }
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .fixed {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .navbar {
+        background: black;
+    }
+
+    .navbar-brand {
+        width: 15rem;
+    }
+
+    .navbar-brand>img:nth-child(1) {
+        width: 10%;
+    }
+
+    /* #logo {
+        width: 30%;
+        padding-left: 50px;
+    } */
+    .navbar-brand>img:nth-child(1) {
+        width: 15%;
+    }
+
+    .navbar-brand>img:nth-child(2) {
+        width: 40%;
+    }
+
+    .container-fluid .navbar.navbar-expand-lg .nav-link {
+        color: black;
+    }
+
+    .nav-item {
+        padding-right: 20px;
+    }
+
+    #button_head {
+        /* border: none; */
+        position: relative;
+        z-index: 1;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    #button_head a {
+        color: white;
+        padding: 0;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #button_head:hover {
+        border: 3px solid green;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    #button_head a:hover {
+        color: green;
+    }
+
+    section {
+        z-index: 10;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        margin: 2vh 0 0 3vh;
+    }
+
+    .contact_us>h2 {
+        /* padding-top: 70px; */
+        font-size: 3em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    #contact_img {
+        padding-top: 10px;
+        width: 70%;
+    }
+
+    .contact_form {
+        background: black;
+        margin: 0 5px;
+        /* height: 600px; */
+        /* background-image: url(../assets/dot_bg.png);
+        background-size: 100%;
+        background-position: 145% 130%;
+        background-repeat: no-repeat; */
+    }
+
+    .send_form {
+        padding: 50px;
+    }
+
+    .send_form>h3 {
+        padding-bottom: 30px;
+        color: white;
+        font-size: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    .inp_form {
+        padding: 10px 10px 0 0;
+    }
+
+    .inp_form>input {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 35px;
+        padding-left: 20px;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>textarea {
+        border: none;
+        border-radius: 1em;
+        width: 100%;
+        height: 100px;
+        resize: none;
+        padding-left: 20px;
+        background: darkgrey;
+        color: black;
+    }
+
+    .inp_form>input::placeholder,
+    .inp_form>textarea::placeholder {
+        color: white;
+    }
+
+    .button_submit {
+        margin-top: 15px;
+        border: 2px solid white;
+        border-radius: 2em;
+        background: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .button_submit:hover {
+        border: 3px solid green;
+        color: green;
+    }
+
+    .details {
+        padding: 50px;
+    }
+
+    .details>h3 {
+        color: rgb(134, 131, 131);
+        font-size: 1.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-top: 30px;
+    }
+
+    .details>a {
+        color: white;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .details>a:hover {
+        text-decoration: none;
+        color: green;
+        transition: 0.5s all ease;
+    }
+
+    .details>p {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    footer {
+        /* position: relative; */
+        background: black;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .icon {
+        text-align: center;
+        /* padding-left: 100px; */
+        /* width: 15rem; */
+    }
+
+    .quaffle_img {
+        width: 60px;
+        background: black;
+    }
+
+    #foot_icon {
+        color: white;
+        padding-left: 10px;
+    }
+
+    .powered>p {
+        font-size: 1.2em;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+}

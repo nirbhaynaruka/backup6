@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="assets/logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="node_modules/datamaps/dist/datamaps.world.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- <link rel="stylesheet" href="css/aboutus.css"> -->
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+
+
+    <title>BackUp</title>
+    <script src="js/mapdata.js"></script>
+    <script src="js/svg.js"></script>
+    <script src="js/worldmap.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#fadein").fadeIn(2000);
+        });
+    </script>
+
+
+</head>
+
+<body onload="insert()">
+    <header class="container-fluid p-0 fixed" id="myHeader">
+        <nav class="navbar navbar-expand-lg newnavbar">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="logo.jpg" id="logo">
+
+                <img src="assets/backup_head_text.png" alt="" id="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: #02fe7f">
+                <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <button type="button" id="button_head"
+                                style="color: white; background: transparent;">Home <span
+                                    class="sr-only">(current)</span></button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/aboutus.html"><button type="button" id="button_head"
+                                style="color: white; background: transparent;">About
+                                Us</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/feature.html"> <button type="button" id="button_head"
+                                style="color: white; background: transparent;">Product</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/contact.html"><button type="button" id="button_head"
+                                style="color: white; background: transparent;">Contact</button></a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="particle ">
+        <div id="particles-js">
+            <div id="container">
+                <div class="opacity" style="background:rgb(0,0,0.)"></div>
+                <div class="main-heading hide" id="fadein" style="z-index:10;display: none;">
+                    <img src="assets/logo.png">
+                    <img src="assets/backup_text.png" alt="backup.jpg">
+                    <h3 style="color: white; padding-top:50px;z-index: 10; ">
+                        General cyber-security training provider</h3>
+                </div>
+                <p class="powered">Powered by ThreatCloud Intelligence</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="z-index: 99;">
+        <div id="aboutus" class="scrollTo" style="z-index: 99;">
+            <section>
+                <div class="row" style="margin-top:10px">
+                    <div class="col-md-6 col-sm-6">
+                        <div id="hidden1" class="animation-element slide-left testimonial">
+                            <h1>About <span style="color:#02fe7f;">Us</span></h1>
+                        </div>
+                        <div class="cssanimation sequence fadeInBottom" style="line-height: 1.6;">
+                            <p style="font-weight: bolder;">
+                                        Learning always becomes easy when it comes with the fun that is what clicked to our mind when we gave a thought about how people can be aware of cyber-security attacks?
+                            </p>
+                            <p style="font-weight: bolder;">      We have come with our own unique Approach Of Gamification. This will let people not to waste their                 time in further research and still getting nil in their hands.</p>
+                            <p style="font-weight: bolder;">          But our approaches at ‘BACKUP’ are optimized, fun-learning, productive and full with solutions that     actually work amazingly. Our objective is smart learning that makes you to adopt and then implement.
+        
+                            </p>
+                            <div style="padding-bottom:50px;text-align: left;">
+                                <a href="html/aboutus.html"><button id="more">Read More...</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-6 col-sm-6 animation-element slide-right testimonial" style="z-index:0;">
+                        <img class="imgAnimation about_img" src="assets/about3.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="ourfeatures" class="scrollTo">
+            <section class="container-fluid" style="background-color: black;">
+                <div class="row">
+                    <div style="background: #02fe7f; padding-left: 40px;"></div>
+                    <div class="col-md-11" style="background: black; padding: 50px 50px 0 50px;">
+                        <h3 id="head_f" class="text-align-center">Our &nbsp;<span
+                                style="color: rgb(131, 232, 123);">Features</span>
+                        </h3>
+                        <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                            <div class="col-md-4">
+                                <div class="rect">
+                                    <h3>Gamified Experience</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="rect">
+                                    <h3>Performance Reports</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="rect">
+                                    <h3>Continuous Process</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="text-align: center;padding-bottom:50px;">
+                            <a href="html/feature.html"><button id="more">Read More...</button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="ourteam" class="scrollTo">
+            <section class="parallax">
+
+                <div class="row" style="padding-top:50px">
+                    <div class="col-md-6">
+                        <div id="hidden2" class="animation-element slide-left testimonial">
+                            <h1>Our <span style="color:#02fe7f;">Team</span></h1>
+                        </div>
+                        <div class="cssanimation sequence fadeInBottom" style="line-height: 1.6;">
+                            <p style="font-weight: bolder;">
+                                Equipped with young talent and proficiency in cyber-security and gaming mechanics, Our
+                                team has the correct set of skills to create set of skills to create an experience which
+                                people will love to have.
+                            </p>
+                            <div style="text-align: center;padding-bottom:50px;text-align: left;">
+                                <a href="html/aboutus.html#ourTeam"><button id="more">Read More...</button></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-6" style="z-index:0;">
+                        <img class="animation-element slide-right testimonial team_img" src="assets/team.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="contactus" class="scrollTo">
+            <section class="parallax">
+
+                <div class="row" style="margin-top:10px">
+                    <div class="col-md-6">
+                        <div id="hidden2" class="animation-element slide-left testimonial">
+                            <h1>Contact <span style="color:#02fe7f;">Us</span></h1>
+                        </div>
+                        <div class="cssanimation sequence fadeInBottom" style="line-height: 1.6;">
+                            <p style="font-weight: bolder;">
+                                Best way to know about something is directly talking to the makers, please send all the
+                                questions you have and we'll try to answer as soon as possible.
+                            </p>
+                            <div style="padding-bottom:50px;text-align: left;">
+                                <a href="html/contact.html"><button id="more">Read More...</button></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-6" style="z-index:0;">
+                        <img class="animation-element slide-right testimonial cont_img" src="assets/contactus2.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="container-fluid ">
+        <div class="row">
+            <div class="col-md-5 icon">
+                <a href="#"><i class="fab fa-facebook-f fa-2x" id="foot_icon"></i></a>
+                <a href="#" style="margin:0 15px 0 15px"><i class="fab fa-instagram fa-2x" id="foot_icon"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x" id="foot_icon"></i></a>
+            </div>
+            <div class="col-md-2">
+                <h3 style="color: white"><a href="https://nirbhaynaruka.github.io/team/">Developers</a></h3>
+            </div>
+            <div class="col-md-5 quaffle">
+                <p>Powered by <span><img src="Website Template/quaffle.jpg" alt="quaffle.jpg"
+                            class="quaffle_img"></span> <span style="font-weight: bold;color:#02fe7f;">Quaffle</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var map = new Datamap({
+            element: document.getElementById('container')
+        });
+    </script>
+    <script src="js/animation.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

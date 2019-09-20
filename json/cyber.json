@@ -1,0 +1,858 @@
+[
+    {
+        "name": "AF",
+        "threat": "0.13"
+    },
+    {
+        "name": "AO",
+        "threat": "0.28"
+    },
+    {
+        "name": "AL",
+        "threat": "0.03"
+    },
+    {
+        "name": "AE",
+        "threat": "0.49"
+    },
+    {
+        "name": "AR",
+        "threat": "1.0"
+    },
+    {
+        "name": "AM",
+        "threat": "0.07"
+    },
+    {
+        "name": "AU",
+        "threat": "1.01"
+    },
+    {
+        "name": "AT",
+        "threat": "0.4"
+    },
+    {
+        "name": "AZ",
+        "threat": "0.05"
+    },
+    {
+        "name": "BI",
+        "threat": "0.01"
+    },
+    {
+        "name": "BE",
+        "threat": "0.78"
+    },
+    {
+        "name": "BJ",
+        "threat": "0.0"
+    },
+    {
+        "name": "BF",
+        "threat": "0.01"
+    },
+    {
+        "name": "BD",
+        "threat": "0.05"
+    },
+    {
+        "name": "BG",
+        "threat": "0.57"
+    },
+    {
+        "name": "BH",
+        "threat": "0.01"
+    },
+    {
+        "name": "BA",
+        "threat": "0.12"
+    },
+    {
+        "name": "BY",
+        "threat": "0.25"
+    },
+    {
+        "name": "BZ",
+        "threat": "0.0"
+    },
+    {
+        "name": "BO",
+        "threat": "0.16"
+    },
+    {
+        "name": "BR",
+        "threat": "4.39"
+    },
+    {
+        "name": "BN",
+        "threat": "4.39"
+    },
+    {
+        "name": "BT",
+        "threat": "0.33"
+    },
+    {
+        "name": "BW",
+        "threat": "0.08"
+    },
+    {
+        "name": "CF",
+        "threat": "0.08"
+    },
+    {
+        "name": "CA",
+        "threat": "0.91"
+    },
+    {
+        "name": "CH",
+        "threat": "0.35"
+    },
+    {
+        "name": "CL",
+        "threat": "0.11"
+    },
+    {
+        "name": "CN",
+        "threat": "6.48"
+    },
+    {
+        "name": "CI",
+        "threat": "0.02"
+    },
+    {
+        "name": "CM",
+        "threat": "0.03"
+    },
+    {
+        "name": "CD",
+        "threat": "0.03"
+    },
+    {
+        "name": "CG",
+        "threat": "0.03"
+    },
+    {
+        "name": "CO",
+        "threat": "0.88"
+    },
+    {
+        "name": "CR",
+        "threat": "0.12"
+    },
+    {
+        "name": "CU",
+        "threat": "0.12"
+    },
+    {
+        "name": "CZ",
+        "threat": "0.46"
+    },
+    {
+        "name": "DE",
+        "threat": "1.65"
+    },
+    {
+        "name": "DJ",
+        "threat": "0.02"
+    },
+    {
+        "name": "DK",
+        "threat": "0.32"
+    },
+    {
+        "name": "DO",
+        "threat": "0.07"
+    },
+    {
+        "name": "DZ",
+        "threat": "0.01"
+    },
+    {
+        "name": "EC",
+        "threat": "1.14"
+    },
+    {
+        "name": "EG",
+        "threat": "0.01"
+    },
+    {
+        "name": "ER",
+        "threat": "0.01"
+    },
+    {
+        "name": "EE",
+        "threat": "0.09"
+    },
+    {
+        "name": "ET",
+        "threat": "0.05"
+    },
+    {
+        "name": "FI",
+        "threat": "0.34"
+    },
+    {
+        "name": "FJ",
+        "threat": "0.0"
+    },
+    {
+        "name": "GA",
+        "threat": "0.0"
+    },
+    {
+        "name": "GB",
+        "threat": "2.23"
+    },
+    {
+        "name": "GE",
+        "threat": "0.27"
+    },
+    {
+        "name": "GH",
+        "threat": "0.04"
+    },
+    {
+        "name": "GN",
+        "threat": "0.04"
+    },
+    {
+        "name": "GM",
+        "threat": "0.0"
+    },
+    {
+        "name": "GW",
+        "threat": "0.0"
+    },
+    {
+        "name": "GQ",
+        "threat": "0.0"
+    },
+    {
+        "name": "GR",
+        "threat": "5.56"
+    },
+    {
+        "name": "GL",
+        "threat": "5.56"
+    },
+    {
+        "name": "GT",
+        "threat": "0.07"
+    },
+    {
+        "name": "GY",
+        "threat": "0.02"
+    },
+    {
+        "name": "HN",
+        "threat": "0.26"
+    },
+    {
+        "name": "HR",
+        "threat": "0.21"
+    },
+    {
+        "name": "HT",
+        "threat": "0.03"
+    },
+    {
+        "name": "HU",
+        "threat": "0.15"
+    },
+    {
+        "name": "ID",
+        "threat": "1.72"
+    },
+    {
+        "name": "IN",
+        "threat": "8.68"
+    },
+    {
+        "name": "IE",
+        "threat": "0.27"
+    },
+    {
+        "name": "IR",
+        "threat": "0.27"
+    },
+    {
+        "name": "IQ",
+        "threat": "0.04"
+    },
+    {
+        "name": "IS",
+        "threat": "0.04"
+    },
+    {
+        "name": "IL",
+        "threat": "5.85"
+    },
+    {
+        "name": "IT",
+        "threat": "1.67"
+    },
+    {
+        "name": "JM",
+        "threat": "0.25"
+    },
+    {
+        "name": "JO",
+        "threat": "0.25"
+    },
+    {
+        "name": "JP",
+        "threat": "3.34"
+    },
+    {
+        "name": "KZ",
+        "threat": "0.22"
+    },
+    {
+        "name": "KE",
+        "threat": "1.44"
+    },
+    {
+        "name": "KG",
+        "threat": "1.44"
+    },
+    {
+        "name": "KH",
+        "threat": "0.03"
+    },
+    {
+        "name": "KR",
+        "threat": "0.64"
+    },
+    {
+        "name": "XK",
+        "threat": "0.64"
+    },
+    {
+        "name": "KW",
+        "threat": "0.08"
+    },
+    {
+        "name": "LA",
+        "threat": "0.0"
+    },
+    {
+        "name": "LB",
+        "threat": "0.01"
+    },
+    {
+        "name": "LR",
+        "threat": "0.01"
+    },
+    {
+        "name": "LY",
+        "threat": "0.01"
+    },
+    {
+        "name": "LK",
+        "threat": "1.33"
+    },
+    {
+        "name": "LS",
+        "threat": "1.33"
+    },
+    {
+        "name": "LT",
+        "threat": "0.07"
+    },
+    {
+        "name": "LU",
+        "threat": "0.03"
+    },
+    {
+        "name": "LV",
+        "threat": "0.06"
+    },
+    {
+        "name": "MA",
+        "threat": "0.0"
+    },
+    {
+        "name": "MD",
+        "threat": "0.04"
+    },
+    {
+        "name": "MG",
+        "threat": "0.0"
+    },
+    {
+        "name": "MX",
+        "threat": "2.85"
+    },
+    {
+        "name": "MK",
+        "threat": "0.09"
+    },
+    {
+        "name": "ML",
+        "threat": "0.09"
+    },
+    {
+        "name": "MM",
+        "threat": "0.06"
+    },
+    {
+        "name": "ME",
+        "threat": "0.06"
+    },
+    {
+        "name": "MN",
+        "threat": "0.45"
+    },
+    {
+        "name": "MZ",
+        "threat": "0.03"
+    },
+    {
+        "name": "MR",
+        "threat": "0.03"
+    },
+    {
+        "name": "MW",
+        "threat": "0.02"
+    },
+    {
+        "name": "MY",
+        "threat": "0.75"
+    },
+    {
+        "name": "NA",
+        "threat": "0.04"
+    },
+    {
+        "name": "NE",
+        "threat": "0.0"
+    },
+    {
+        "name": "NG",
+        "threat": "0.35"
+    },
+    {
+        "name": "NI",
+        "threat": "0.08"
+    },
+    {
+        "name": "NL",
+        "threat": "0.83"
+    },
+    {
+        "name": "NO",
+        "threat": "0.66"
+    },
+    {
+        "name": "NP",
+        "threat": "0.09"
+    },
+    {
+        "name": "NZ",
+        "threat": "0.17"
+    },
+    {
+        "name": "OM",
+        "threat": "0.01"
+    },
+    {
+        "name": "PK",
+        "threat": "0.0"
+    },
+    {
+        "name": "PA",
+        "threat": "0.45"
+    },
+    {
+        "name": "PE",
+        "threat": "0.82"
+    },
+    {
+        "name": "PH",
+        "threat": "0.82"
+    },
+    {
+        "name": "PG",
+        "threat": "0.02"
+    },
+    {
+        "name": "PL",
+        "threat": "0.25"
+    },
+    {
+        "name": "KP",
+        "threat": "0.25"
+    },
+    {
+        "name": "PT",
+        "threat": "1.64"
+    },
+    {
+        "name": "PY",
+        "threat": "0.04"
+    },
+    {
+        "name": "PS",
+        "threat": "0.01"
+    },
+    {
+        "name": "QA",
+        "threat": "0.25"
+    },
+    {
+        "name": "RO",
+        "threat": "0.28"
+    },
+    {
+        "name": "RU",
+        "threat": "6.87"
+    },
+    {
+        "name": "RW",
+        "threat": "0.07"
+    },
+    {
+        "name": "EH",
+        "threat": "0.07"
+    },
+    {
+        "name": "SA",
+        "threat": "0.32"
+    },
+    {
+        "name": "SD",
+        "threat": "0.08"
+    },
+    {
+        "name": "SS",
+        "threat": "0.08"
+    },
+    {
+        "name": "SN",
+        "threat": "0.01"
+    },
+    {
+        "name": "SL",
+        "threat": "0.01"
+    },
+    {
+        "name": "SV",
+        "threat": "0.16"
+    },
+    {
+        "name": "RS",
+        "threat": "0.09"
+    },
+    {
+        "name": "SR",
+        "threat": "0.0"
+    },
+    {
+        "name": "SK",
+        "threat": "0.06"
+    },
+    {
+        "name": "SI",
+        "threat": "0.17"
+    },
+    {
+        "name": "SE",
+        "threat": "0.73"
+    },
+    {
+        "name": "SZ",
+        "threat": "0.73"
+    },
+    {
+        "name": "SY",
+        "threat": "0.73"
+    },
+    {
+        "name": "TD",
+        "threat": "0.73"
+    },
+    {
+        "name": "TG",
+        "threat": "0.73"
+    },
+    {
+        "name": "TH",
+        "threat": "0.66"
+    },
+    {
+        "name": "TJ",
+        "threat": "0.66"
+    },
+    {
+        "name": "TM",
+        "threat": "0.0"
+    },
+    {
+        "name": "TL",
+        "threat": "0.0"
+    },
+    {
+        "name": "TN",
+        "threat": "0.0"
+    },
+    {
+        "name": "TR",
+        "threat": "1.92"
+    },
+    {
+        "name": "TW",
+        "threat": "0.85"
+    },
+    {
+        "name": "TZ",
+        "threat": "0.02"
+    },
+    {
+        "name": "UG",
+        "threat": "0.15"
+    },
+    {
+        "name": "UA",
+        "threat": "2.64"
+    },
+    {
+        "name": "UY",
+        "threat": "0.01"
+    },
+    {
+        "name": "US",
+        "threat": "11.6"
+    },
+    {
+        "name": "UZ",
+        "threat": "0.0"
+    },
+    {
+        "name": "VE",
+        "threat": "0.0"
+    },
+    {
+        "name": "VN",
+        "threat": "1.08"
+    },
+    {
+        "name": "VU",
+        "threat": "0.01"
+    },
+    {
+        "name": "YE",
+        "threat": "0.01"
+    },
+    {
+        "name": "ZA",
+        "threat": "2.86"
+    },
+    {
+        "name": "ZM",
+        "threat": "0.07"
+    },
+    {
+        "name": "ZW",
+        "threat": "0.14"
+    },
+    {
+        "name": "SO",
+        "threat": "0.09"
+    },
+    {
+        "name": "GF",
+        "threat": "0.09"
+    },
+    {
+        "name": "FR",
+        "threat": "2.35"
+    },
+    {
+        "name": "ES",
+        "threat": "1.76"
+    },
+    {
+        "name": "AW",
+        "threat": "1.76"
+    },
+    {
+        "name": "AI",
+        "threat": "0.0"
+    },
+    {
+        "name": "AD",
+        "threat": "0.01"
+    },
+    {
+        "name": "AG",
+        "threat": "0.0"
+    },
+    {
+        "name": "BS",
+        "threat": "0.0"
+    },
+    {
+        "name": "BM",
+        "threat": "0.0"
+    },
+    {
+        "name": "BB",
+        "threat": "0.02"
+    },
+    {
+        "name": "KM",
+        "threat": "0.02"
+    },
+    {
+        "name": "CV",
+        "threat": "0.0"
+    },
+    {
+        "name": "KY",
+        "threat": "0.0"
+    },
+    {
+        "name": "DM",
+        "threat": "0.0"
+    },
+    {
+        "name": "FK",
+        "threat": "0.0"
+    },
+    {
+        "name": "FO",
+        "threat": "0.0"
+    },
+    {
+        "name": "GD",
+        "threat": "0.01"
+    },
+    {
+        "name": "HK",
+        "threat": "0.84"
+    },
+    {
+        "name": "KN",
+        "threat": "0.84"
+    },
+    {
+        "name": "LC",
+        "threat": "0.0"
+    },
+    {
+        "name": "LI",
+        "threat": "0.0"
+    },
+    {
+        "name": "MF",
+        "threat": "0.0"
+    },
+    {
+        "name": "MV",
+        "threat": "0.1"
+    },
+    {
+        "name": "MT",
+        "threat": "0.06"
+    },
+    {
+        "name": "MS",
+        "threat": "0.06"
+    },
+    {
+        "name": "MU",
+        "threat": "0.11"
+    },
+    {
+        "name": "NC",
+        "threat": "0.0"
+    },
+    {
+        "name": "NR",
+        "threat": "0.0"
+    },
+    {
+        "name": "PN",
+        "threat": "0.0"
+    },
+    {
+        "name": "PR",
+        "threat": "0.04"
+    },
+    {
+        "name": "PF",
+        "threat": "0.04"
+    },
+    {
+        "name": "SG",
+        "threat": "0.69"
+    },
+    {
+        "name": "SB",
+        "threat": "0.69"
+    },
+    {
+        "name": "ST",
+        "threat": "0.04"
+    },
+    {
+        "name": "SX",
+        "threat": "0.04"
+    },
+    {
+        "name": "SC",
+        "threat": "0.0"
+    },
+    {
+        "name": "TC",
+        "threat": "0.0"
+    },
+    {
+        "name": "TO",
+        "threat": "0.0"
+    },
+    {
+        "name": "TT",
+        "threat": "0.08"
+    },
+    {
+        "name": "VC",
+        "threat": "0.08"
+    },
+    {
+        "name": "VG",
+        "threat": "0.08"
+    },
+    {
+        "name": "VI",
+        "threat": "0.01"
+    },
+    {
+        "name": "CY",
+        "threat": "0.1"
+    },
+    {
+        "name": "RE",
+        "threat": "0.08"
+    },
+    {
+        "name": "YT",
+        "threat": "0.01"
+    },
+    {
+        "name": "MQ",
+        "threat": "0.01"
+    },
+    {
+        "name": "GP",
+        "threat": "0.0"
+    },
+    {
+        "name": "CW",
+        "threat": "0.02"
+    },
+    {
+        "name": "IC",
+        "threat": "0.02"
+    }
+]
