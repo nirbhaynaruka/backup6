@@ -1,7 +1,8 @@
 [
     {
         "name": "AF",
-        "threat": "0.13"
+        "threat": "0.13",
+        "img": "assets/about1.png"
     },
     {
         "name": "AO",

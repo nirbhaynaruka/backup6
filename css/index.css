@@ -1,6 +1,15 @@
 html {
     overflow-x: hidden
 }
+#load{
+    width:100%;
+    top: 0;
+    left: 0;
+    height:100%;
+    position: fixed;
+    z-index:9999;
+    background:url("../assets/logo.gif") no-repeat center center black;
+}
 /* 
 @font-face {
     font-family: "CustomFont";
@@ -124,14 +133,23 @@ tr {
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
-
+    .navbar-nav{
+        padding-left: 15%;
+    }
+    
     #container {
         background-color: transparent;
+        margin-top: 7%;
         width: 100%;
         height: 90vh;
         z-index: 9;
     }
-
+    .navbar-brand{
+        
+        margin-left: 18%;
+        width: 20em;
+    }
+ 
     button:focus {
         outline: 0;
     }
@@ -267,8 +285,8 @@ tr {
 
     .quaffle {
         text-align: end;
-        padding-right: 120px;
-        font-size: 1.5em;
+        padding-right: 50px;
+        font-size: 1.3em;
     }
 
     .navbar-brand>img:nth-child(1) {
@@ -290,7 +308,7 @@ tr {
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin: 18% 0 0 33%
+        margin: 10% 0 0 33%;
     }
 
     .main-heading>img:nth-child(1) {
@@ -351,7 +369,7 @@ tr {
         height: 16rem;
         padding-top: 5vmin;
         border-radius: 0.4em;
-        margin: 3em 2em 5em 5em;
+        margin: 3em 2em 0 5em;
         box-shadow: 0px 10px 42px rgba(243, 243, 243, 0.4);
     }
 
@@ -453,18 +471,25 @@ tr {
     }
 
     #myHeader {
-        position: inherit;
-        background-color: black;
-        background: black;
+        position: fixed;
+        background-color: transparent;
+        background: transparent;
         backface-visibility: hidden;
     }
-
+    .bg-dark{
+        background-color: transparent !important;
+    }
+    .bg-dark1{
+        background-color: black !important;
+        /* opacity: 0.9; */
+    }
+    .bg-dark1 a.
     .navbar {
         background: transparent;
     }
 
     #button_head {
-        background: black;
+        background: transparent;
     }
 
     .fixed {
@@ -541,6 +566,7 @@ tr {
 
 
     .headertoggle .newnavbar {
+        position: fixed;
         transition: 0.3s;
         background-color: black;
         color: white;
@@ -555,6 +581,13 @@ tr {
         height: 50px;
         width: 150px;
         font-size: 20px;
+    }
+    #more:hover{
+        /* background: white; */
+        color: #02fe7f ;
+        border: 3px solid #02fe7f;
+        box-shadow: 0px 10px 42px rgba(243, 243, 243, 0.4);
+        transition: 0.7s all ease;
     }
 
 }
@@ -575,11 +608,17 @@ tr {
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
-
+    .navbar-nav{
+        padding-left: 15%;
+    }
     .hiddenbutton {
         position: relative;
     }
-
+    svg.datamap{
+        margin-top: 114px;
+        height: 580px;
+       
+    }
     .hiddenbutton .hovertext {
         background: #9da4a780;
         visibility: hidden;
@@ -605,9 +644,14 @@ tr {
 
     #container {
         background-color: transparent;
+        margin-top: 7%;
         width: 100%;
         height: 90vh;
         z-index: 9;
+    }
+    a.navbar-brand{
+        margin-left: 18%;
+        width: 20em;
     }
 
     .btnusa {
@@ -868,17 +912,23 @@ tr {
 
     #myHeader {
         position: fixed;
-        background-color: black;
-        background: black;
+        background-color: transparent;
+        background: transparent;
         backface-visibility: hidden;
     }
-
+    .bg-dark{
+        background-color: transparent !important;
+    }
+    .bg-dark1{
+        background-color: black !important;
+        /* opacity: 0.9; */
+    }
     .navbar {
         background: transparent;
     }
 
     #button_head {
-        background: black;
+        background: transparent;
     }
 
     .fixed {
@@ -970,7 +1020,13 @@ tr {
         width: 150px;
         font-size: 20px;
     }
-
+    #more:hover{
+        /* background: white; */
+        color: #02fe7f ;
+        border: 3px solid #02fe7f;
+        box-shadow: 0px 10px 42px rgba(243, 243, 243, 0.4);
+        transition: 0.7s all ease;
+    }
 
 }
 
@@ -990,7 +1046,11 @@ tr {
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
-
+    svg.datamap{
+        margin-top: 114px;
+        height: 580px;
+       
+    }
     .hiddenbutton {
         visibility: hidden;
     }
@@ -1002,10 +1062,17 @@ tr {
 
     #container {
         background-color: transparent;
+        margin-top: 7%;
         width: 100%;
         height: 100%;
         z-index: 9;
     }
+    a.navbar-brand{
+        margin-left: 18%;
+        width: 20em;
+        display: contents;
+    }
+    
 
     #aboutus,
     #ourteam,
@@ -1188,17 +1255,23 @@ tr {
 
     #myHeader {
         position: fixed;
-        background-color: black;
-        background: black;
+        background-color: transparent;
+        background: transparent;
         backface-visibility: hidden;
     }
-
+    .bg-dark{
+        background-color: transparent !important;
+    }
+    .bg-dark1{
+        background-color: black !important;
+        /* opacity: 0.9; */
+    }
     .navbar {
         background: transparent;
     }
 
     #button_head {
-        background: black;
+        background: transparent;
     }
 
     .fixed {
@@ -1354,10 +1427,17 @@ tr {
 
     #container {
         background-color: transparent;
+        margin-top: 7%;
         width: 100%;
         height: 100%;
         z-index: 9;
     }
+    a.navbar-brand{
+        margin-left: 18%;
+     display: inline;
+        width: 20em;
+    }
+    
 
     #aboutus,
     #ourteam,
@@ -1556,17 +1636,20 @@ tr {
 
     #myHeader {
         position: fixed;
-        background-color: black;
-        background: black;
+        background-color: transparent;
+        background: transparent;
         backface-visibility: hidden;
     }
-
-    .navbar {
-        background: transparent;
+    .bg-dark{
+        background-color: transparent !important;
+    }
+    .bg-dark1{
+        background-color: black !important;
+        /* opacity: 0.9; */
     }
 
     #button_head {
-        background: black;
+        background: transparent;
     }
 
     .fixed {
@@ -1693,11 +1776,16 @@ tr {
 
     #container {
         background-color: transparent;
+        margin-top: 7%;
         width: 100%;
         height: 100%;
         z-index: 9;
     }
-
+    a.navbar-brand{
+        margin-left: 18%;
+        width: 20em;
+        display: inline;
+    }
     .hiddenbutton {
         visibility: hidden;
     }
@@ -1890,17 +1978,22 @@ tr {
 
     #myHeader {
         position: fixed;
-        background-color: black;
-        background: black;
+        background-color: transparent;
+        background: transparent;
         backface-visibility: hidden;
     }
-
+    .bg-dark{
+        background-color: transparent !important;
+    }
+    .bg-dark1{
+        background-color: black !important;
+        /* opacity: 0.9; */
+    }
     .navbar {
         background: transparent;
     }
-
     #button_head {
-        background: black;
+        background: transparent;
     }
 
     .fixed {
@@ -1977,6 +2070,7 @@ tr {
 
 
     .headertoggle .newnavbar {
+        position: fixed;
         transition: 0.3s;
         background-color: black;
         color: white;
@@ -2030,8 +2124,13 @@ tr {
         width: 100%;
         height: 100%;
         z-index: 9;
+        margin-top: 7%;
     }
-
+    a.navbar-brand{
+        margin-left: 18%;
+        width: 20em;
+        display: contents;
+    }
     .hiddenbutton {
         visibility: hidden;
     }
@@ -2250,17 +2349,23 @@ tr {
 
     #myHeader {
         position: fixed;
-        background-color: black;
-        background: black;
+        background-color: transparent;
+        background: transparent;
         backface-visibility: hidden;
     }
-
+    .bg-dark{
+        background-color: transparent !important;
+    }
+    .bg-dark1{
+        background-color: black !important;
+        /* opacity: 0.9; */
+    }
     .navbar {
         background: transparent;
     }
 
     #button_head {
-        background: black;
+        background: transparent;
     }
 
     .fixed {

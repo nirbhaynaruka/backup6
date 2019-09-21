@@ -13,9 +13,20 @@ html {
     body {
         overflow-x: hidden;
     }
-
+    .navbar-nav{
+        padding-left: 15%;
+    }
+    .navbar-brand{
+        font-size: 1.06rem !important;
+        margin-left: 18%;
+        width: 20em;
+    }
+    .bg-dark{
+        background-color: black !important;
+    }
+ 
     .fixed {
-        position: sticky;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
@@ -78,7 +89,7 @@ html {
     }
 
     .heading {
-        margin: 3em 3em 0 4.5em;
+        margin: 8em 3em 0 4.5em;
     }
 
     .contact_us>h2 {
@@ -232,9 +243,20 @@ html {
     body {
         overflow-x: hidden;
     }
-
+    .navbar-nav{
+        padding-left: 15%;
+    }
+    .navbar-brand{
+        display: contents;
+        margin-left: 18%;
+        width: 20em;
+    }
+    .bg-dark{
+        background-color: black !important;
+    }
+ 
     .fixed {
-        position: sticky;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
@@ -297,7 +319,7 @@ html {
     }
 
     .heading {
-        margin: 3em 3em 0 4.5em;
+        margin: 8em 3em 0 4.5em;
     }
 
     .contact_us>h2 {
@@ -450,9 +472,20 @@ html {
     body {
         overflow-x: hidden;
     }
-
+    .navbar-nav{
+        padding-left: 15%;
+    }
+    .navbar-brand{
+        display: contents;
+        margin-left: 18%;
+        width: 20em;
+    }
+    .bg-dark{
+        background-color: black !important;
+    }
+ 
     .fixed {
-        position: sticky;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
@@ -524,7 +557,7 @@ html {
     }
 
     .heading {
-        margin: 0vh 15vh 0 5vh;
+        margin: 9em 15vh 0 5vh;
     }
 
     .contact_us>h2 {
@@ -685,9 +718,20 @@ html {
     body {
         overflow-x: hidden;
     }
-
+    .navbar-nav{
+        padding-left: 15%;
+    }
+    .navbar-brand{
+        display: contents;
+        margin-left: 18%;
+        width: 20em;
+    }
+    .bg-dark{
+        background-color: black !important;
+    }
+ 
     .fixed {
-        position: sticky;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
@@ -763,7 +807,7 @@ html {
     }
 
     .heading {
-        margin: 3em 3em 0 4.5em;
+        margin: 8em 3em 0 4.5em;
     }
 
     .contact_us>h2 {
@@ -923,9 +967,20 @@ html {
     body {
         overflow-x: hidden;
     }
-
+    .navbar-nav{
+        padding-left: 15%;
+    }
+    .navbar-brand{
+        display: contents;
+        margin-left: 18%;
+        width: 20em;
+    }
+    .bg-dark{
+        background-color: black !important;
+    }
+ 
     .fixed {
-        position: sticky;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
@@ -1152,9 +1207,20 @@ html {
     body {
         overflow-x: hidden;
     }
-
+    .navbar-nav{
+        padding-left: 15%;
+    }
+    .navbar-brand{
+        display: contents;
+        margin-left: 18%;
+        width: 20em;
+    }
+    .bg-dark{
+        background-color: black !important;
+    }
+ 
     .fixed {
-        position: sticky;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
@@ -1229,7 +1295,7 @@ html {
     }
 
     .heading {
-        margin: 2vh 0 0 3vh;
+        margin: 8em 0 0 3vh;
     }
 
     .contact_us>h2 {

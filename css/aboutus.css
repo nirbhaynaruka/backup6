@@ -14,6 +14,18 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
+  .navbar-nav{
+    padding-left: 15%;
+}
+  .navbar-brand{
+    font-size: 1.06rem !important;
+    margin-left: 18%;
+    width: 20em;
+}
+.bg-dark{
+  background-color: black !important;
+}
+
   .aboutp{
     text-align: justify;
     line-height: 1.6; 
@@ -603,6 +615,17 @@
     line-height: 1.6;
     padding: 41px;
   }
+  .navbar-nav{
+    padding-left: 15%;
+}
+  .navbar-brand{
+    display: contents;
+    margin-left: 18%;
+    width: 20em;
+}
+.bg-dark{
+  background-color: black !important;
+}
   .navbar-brand  {
     width: 30rem;
 }
@@ -856,6 +879,18 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
+  .navbar-nav{
+    padding-left: 15%;
+}
+  .navbar-brand{
+        
+    margin-left: 18%;
+    width: 20em;
+    display: contents;
+}
+.bg-dark{
+  background-color: black !important;
+}
   .navbar-brand  {
     width: 30rem;
 }
@@ -1113,9 +1148,19 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
-  .navbar-brand  {
-    width: 15rem;
+  .navbar-nav{
+    padding-left: 15%;
 }
+  .navbar-brand{
+        
+    margin-left: 18%;
+    width: 20em;
+    display: contents;
+}
+.bg-dark{
+  background-color: black !important;
+}
+  
 .navbar-brand>img:nth-child(1) {
     width: 20%;
 }
@@ -1378,6 +1423,17 @@ section.row{
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
+  .navbar-nav{
+    padding-left: 15%;
+}
+  .navbar-brand{
+        
+    margin-left: 18%;
+    width: 20em;
+}
+.bg-dark{
+  background-color: black !important;
+}
   .navbar-brand  {
     width: 13rem;
 }
